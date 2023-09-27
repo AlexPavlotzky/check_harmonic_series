@@ -6,7 +6,7 @@ if __name__ == "__main__":
         "1. Sacabuche alto en D\n"
         "2. Sacabuche tenor en A\n"
         "3. Sacabuche bajo en A\n"
-        "4. Otro\n")
+        "4. Otro\n--> ")
     
     if instrumento == "1":
         nota_base = "D"
