@@ -26,8 +26,12 @@ class SerieArmonicaGenerator:
         
         indice_nota = self.notas.index(nota)
 
+        serie_combinada = []
+
         for i, posicion in enumerate(posiciones):
             nota_base = self.notas[indice_nota]
             serie = self.generar_serie_armonica(nota_base)
-            print(f"Posición {posicion}: {serie}")
+            serie_combinada.extend([f"{posicion}{nota}" for nota in serie.split(', ')])
             indice_nota = (indice_nota - 1) % 12
+        
+        return serie_combinada
