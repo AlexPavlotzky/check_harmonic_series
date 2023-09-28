@@ -13,7 +13,7 @@ class Virgiliano:
         notas = [self.transformar_elemento(elemento) for elemento in notas]
         print(f"     ____   ")
         print(f"    / __ \  ")
-        print(f"    ||  ||  NUOVA INTAVOLATURA DI TROMBONI PER PER SONARLI IN CONCERTO ~ + * +")
+        print(f"    ||  ||  NUOVA INTAVOLATURA DI TROMBONI PER SONARLI IN CONCERTO ~ + * +")
         print(f"    ||  ||  ")
         print(f"    ||__||  ")
         print(f" __ ||--||  ")
