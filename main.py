@@ -13,7 +13,7 @@ if __name__ == "__main__":
     elif instrumento == "2" or instrumento == "3":
         nota_base = "A"
     elif instrumento == "4":
-        nota_base = input("Ingrese la nota base del instrumento (C, C#/Db, D, D#/Eb, E, F, F#/Gb, G, G#/Ab, A, A#/Bb, B): ")
+        nota_base = input("Ingrese la nota base del instrumento (C, C#/Db, D, D#/Eb, E, F, F#/Gb, G, G#/Ab, A, A#/Bb, B):\n-->  ")
     generator = SerieArmonicaGenerator()
     serie_combinada = generator.mostrar_serie_por_posicion(nota_base)
     sacabuche = Virgiliano()
